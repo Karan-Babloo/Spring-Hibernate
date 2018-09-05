@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.controller;
+package com.karan.springdemo.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.luv2code.springdemo.entity.Customer;
-import com.luv2code.springdemo.service.CustomerService;
+import com.karan.springdemo.entity.Customer;
+import com.karan.springdemo.service.CustomerService;
 
 @Controller
 @RequestMapping("/customer")
